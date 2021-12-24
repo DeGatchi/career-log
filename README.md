@@ -2,4 +2,5 @@
 - finished NFT Launchpad contracts
 - finished Loan Market contracts
 - started reviewing Erc20 Launchpad contracts
+- applied for Sigma Prime Internship (pending)
 
