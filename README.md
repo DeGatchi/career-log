@@ -13,10 +13,11 @@
 
 29/12/2021
 - Reworked NFT Launchpad after reading MISO's factory + model deployment strategy (uses clones). So, made a factory that uses EIP-1167 cloning system and is catered to adding new models later on.
+- Learned some assembly when deploying clones w/ the EIP-1167 clone factory contract. (https://blog.openzeppelin.com/deep-dive-into-the-minimal-proxy-contract/)
 - Thinking of applying for OpenZeppelin Security Analyst. Probs will get denied but why not apply (.__.).
 
 30/12/2021
-- Applied at OpenZeppelin + Solidity Finance for a Security Analyst position. Lets see how this goes :O
+- Applied at OpenZeppelin + Solidity Finance (https://solidity.finance/) for a Security Analyst position. Lets see how this goes :O
 - Talking at first AMA in the Diversifi discord at 9am (._.) wen lambo?
 - Rereading NFT Launchpad contracts for logic bugs
 
