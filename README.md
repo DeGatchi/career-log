@@ -9,7 +9,16 @@
 25/12/2021
 - Researching erc20 launchpad protocols (Lukso: rICO, Sushi: MISO) to start building v2 contracts, similar to the NFT launchpad w/ multiple model selectors (much excite!).
 - Began building tutorial game (https://www.youtube.com/watch?v=b8YUfee_pzc). Very refreshing to learn something new.
-- Started building DutchAuction contract
+- Started building DutchAuction contract (erc20 launchpad, nft launchpad models, nft marketplace)
+
+29/12/2021
+- Reworked NFT Launchpad after reading MISO's factory + model deployment strategy (uses clones). So, made a factory that uses EIP-1167 cloning system and is catered to adding new models later on.
+- Thinking of applying for OpenZeppelin Security Analyst. Probs will get denied but why not apply (.__.).
+
+30/12/2021
+- Applied at OpenZeppelin + Solidity Finance for a Security Analyst position. Lets see how this goes :O
+- Talking at first AMA in the Diversifi discord at 9am (._.) wen lambo?
+- Rereading NFT Launchpad contracts for logic bugs
 
 ## End Of Year Review
 
