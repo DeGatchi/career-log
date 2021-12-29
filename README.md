@@ -17,8 +17,7 @@
 - Thinking of applying for OpenZeppelin Security Analyst. Probs will get denied but why not apply (.__.).
 
 30/12/2021
-- Applied at: OpenZeppelin, Halborn Security (https://twitter.com/HalbornSecurity), Solidity Finance (https://solidity.finance/), Tob: Summer Internship 2022, Certik, Hexens (https://hexens.io/) + Immunefi.
-    Lets see how this goes :O
+- Applied at: OpenZeppelin, Halborn Security (https://twitter.com/HalbornSecurity), Solidity Finance (https://solidity.finance/), Tob: Summer Internship 2022, Certik, Hexens (https://hexens.io/) + Immunefi. Lets see how this goes :O
 - Talking at first AMA in the Diversifi discord at 9am (._.) wen lambo?
 - Rereading NFT Launchpad contracts for logic bugs
 
