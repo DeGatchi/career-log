@@ -21,6 +21,10 @@
 - Talking at first AMA in the Diversifi discord at 9am (._.) wen lambo?
 - Rereading NFT Launchpad contracts for logic bugs
 
+31/12/2021 - 01/01/2022
+- Started line-by-line review of NFT Launchpad for B:BC + discovered an on-chain verification method thanks to being inspired by Nil DAO's frontend (https://twitter.com/Nil__dao).
+- Started learning Rust! (Up to: https://www.youtube.com/watch?v=n3bPhdiJm9I&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8&index=5).
+
 ## End Of Year Review
 
 ---
@@ -45,3 +49,13 @@
 - Don't be so fast to criticise (do it after complimenting on something done well), think about how it makes others feel.
 
 ## January (1)
+02/01/2022
+- Line-by-line review of 3 price models in NFT Launchpad (B:T, B:CC + B:RC).
+- Pilled my roommate to learn programming (.<.)
+
+03/01/2022
+- Line-by-line review of 2 price models in NFT Launchpad (A:T + A:BC).
+- Reading articles on web3 security from Immunifi (Bug bounty article + why it's beneficial!).
+
+04/01/2022
+- 
