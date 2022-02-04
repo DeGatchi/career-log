@@ -37,11 +37,11 @@
 - Finish building: NFT Objectifier, P2P Flashloans, NFT Staking (?), Erc20 Launchpad.
 - Build something new + innovative (maybe in Hackathon).
 - Get into blockchain security formally (internship, apprenticeship, etc).
-- Get good at testing .-. (JS/Solidity).
+- ~~Get good at testing .-. (JS/Solidity).~~
 - Learn Typescript properly.
 - Build a mobile web3 app.
 - Redo CTFs (D.V.D, Ethernaut, etc).
-- Make more YT educational videos or start an educational platform.
+
 ### Psychological
 - Stop being so introverted: Network + make more frens ;-;
 - Focus more, stop letting stress drag you down.
