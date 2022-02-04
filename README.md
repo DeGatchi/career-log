@@ -57,5 +57,20 @@
 - Line-by-line review of 2 price models in NFT Launchpad (A:T + A:BC).
 - Reading articles on web3 security from Immunifi (Bug bounty article + why it's beneficial!).
 
-04/01/2022
-- 
+03/01/2022 - 05/02/2022
+- Sigma Prime internship denied (Applicants had really strong knowledge :o)
+- Reading articles on MEV and being more active in the Flashbots discord. Going to learn rust instead of go b/c I think performance is better and I can do more with rust when i learn the language (e.g., rust-based smart contracts).
+- Reading some MEV bots (subway, cake_sniper) + learned more assembly and how opcodes work at the low level - especially w/ minimal proxy cloning. 
+- Want to watch this (simple arb walkthrough)[https://www.youtube.com/watch?v=wn8r674U1B4&t=1s] but i've had no time b/c of building TheaterDAO. I really want to release it and help everyone! Maybe i'll watch it when i release v1 buyout: fixed UI + cards.
+- Reviewing UniswapV2 + V3 create pool func - very interesting how using `salt` can change the created address
+- Learned foundry's forge! (lfg, solidity testing!)
+- Released token factory on TheaterDAO!
+- Finished create buyout: fixed UI on TheaterDAO
+- Finished coding the NFT launchpad's first model + wrote tests for 9 dif models
+- Created https://theaterdao.xyz from scratch (as of 05/02/2022 working on the card rendering for each sale)
+- Started dev'in an airdropper contract for TheaterDAO
+- Learning how FNAFs uses sound to envoke fear (horror game study) + how they keep players fearful, avoiding conditioning of the game's horror elements (uses chances + prevents reusable strategies - creating a permanent unknown scenario)
+- Studying strategies game devs use to retain retention that psychologically hook players to keep coming back and how it makes them feel (e.g, look boxes, close misses, long term + short term progression) - very interesting b/c there were laws created as a result from this since they use techniques from casinos 
+- Started writing up NFT AMM, onchain nft creator + selector concepts. The NFT AMM forced me to learn (UniswapV2's code)[https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/] in depth. This will help w/ creating MEV bots too (super excited .<.)
+- Created a community dev chat, very nice to hang out in and surround myself w/ some like-minded-people (connecting more)
+- Learning more about IPFS + how ERC721s are actually created (https://www.youtube.com/watch?v=fzH7Gjadmj0)
