@@ -57,7 +57,7 @@
 - Line-by-line review of 2 price models in NFT Launchpad (A:T + A:BC).
 - Reading articles on web3 security from Immunifi (Bug bounty article + why it's beneficial!).
 
-03/01/2022 - 05/02/2022
+03/01/2022 - 04/02/2022
 - Sigma Prime internship denied (Applicants had really strong knowledge :o)
 - Reading articles on MEV and being more active in the Flashbots discord. Going to learn rust instead of go b/c I think performance is better and I can do more with rust when i learn the language (e.g., rust-based smart contracts).
 - Reading some MEV bots (subway, cake_sniper) + learned more assembly and how opcodes work at the low level - especially w/ minimal proxy cloning. 
@@ -74,3 +74,8 @@
 - Started writing up NFT AMM, onchain nft creator + selector concepts. The NFT AMM forced me to learn (UniswapV2's code)[https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/] in depth. This will help w/ creating MEV bots too (super excited .<.)
 - Created a community dev chat, very nice to hang out in and surround myself w/ some like-minded-people (connecting more)
 - Learning more about IPFS + how ERC721s are actually created (https://www.youtube.com/watch?v=fzH7Gjadmj0)
+
+05/02/2022
+- Determined to learn Rust but have no clue where to start.
+- Studied 1inch + other mev bots for a bit.
+- Wrote sudocode for Charles (my lil arb bot) - a todo + workflow. Now I know what I need to do and how to start developing him. Gameplan: write in js for v0, get it working the way I want it to, try to optimise it + make it faster or update strategies -> optimise it by turning into Rust +/or add new features over time.
