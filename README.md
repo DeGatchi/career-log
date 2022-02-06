@@ -79,3 +79,7 @@
 - Determined to learn Rust but have no clue where to start.
 - Studied 1inch + other mev bots for a bit.
 - Wrote sudocode for Charles (my lil arb bot) - a todo + workflow. Now I know what I need to do and how to start developing him. Gameplan: write in js for v0, get it working the way I want it to, try to optimise it + make it faster or update strategies -> optimise it by turning into Rust +/or add new features over time.
+
+06/02/2022
+- Started building monitoring system. Learned a lot more about UniswapV2 code - line by line (path[], reserves, kLast)
+- Watched (Flashbots: simple arbitrage repo walkthrough)[https://www.youtube.com/watch?v=wn8r674U1B4]. Learned a lot and recommend to anyone.
