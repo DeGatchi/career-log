@@ -42,6 +42,12 @@
 - Build a mobile web3 app.
 - Redo CTFs (D.V.D, Ethernaut, etc).
 
+***Update 21/05/2022**
+- Build a MEV bot (or multiple).
+- Learn EVM infrastructure (GETH).
+- Be proficient w/ Rust.
+- Get a full-time/contractor job in MEV or DeFi (preferably want to get a mev job).
+
 ### Psychological
 - Stop being so introverted: Network + make more frens ;-;
 - Focus more, stop letting stress drag you down.
@@ -57,6 +63,7 @@
 - Line-by-line review of 2 price models in NFT Launchpad (A:T + A:BC).
 - Reading articles on web3 security from Immunifi (Bug bounty article + why it's beneficial!).
 
+## February (2)
 03/01/2022 - 04/02/2022
 - Sigma Prime internship denied (Applicants had really strong knowledge :o)
 - Reading articles on MEV and being more active in the Flashbots discord. Going to learn rust instead of go b/c I think performance is better and I can do more with rust when i learn the language (e.g., rust-based smart contracts).
@@ -89,8 +96,9 @@
 - Read learn Rust in 30min article
 - Watched (Crust of Rust: Lifetime Annotations)[https://www.youtube.com/watch?v=rAl-9HwD858]
 
+### May (5)
 21/05/2022 
-> Been a while since I last updated and a lot has happened, including getting depressed for 2 weeks and bouncing into MEV :D
+> Been a while since I last updated and a lot has happened, including getting depressed for 4-5 weeks, then bounced into MEV :D
 - I have been working on a long-tail mev bot, for a searcher team as a skill demonstration, w/ mempool monitoring, decoding, block refreshing and my first arb algorithm to generate every possible path with a set of predefined paths (e.g, wETH -> USDC -> STAKE -> wSTAKE -> wBTC -> wETH). I literally have no background knowledge for Rust/MEV/Backend but my learning skills are pretty good so thats why I was given a chance (and my Solidity experience, almost 2 yr now). For anyone wanting to get into MEV, my recommendation is build a bot in rust that creates simulations, precomputes incoming txs and determines optimal profit pathways. The majority of profit for us lil guys will be with long-tail opportunities. MEV is such a selfish space so you need to learn by yourself and filter out the psyops (is this psyops? :0). Getting into MEV is so hard but it's so worth it. Just persist and build every day and try to break down everything in a very simple way.
 - Launched @TheaterDAO + made a basic website (do need to update to make way more user friendly) - currently requires technical knowledge to use and doesn't display all projects on a single page.
 - Almost finish algorithmic auction house; finished semi-algorithmic auction house that just requires the auctioneer to start it.
@@ -99,3 +107,5 @@
 - I went on anti-depressants but decided to get a gym membership and go everyday instead and it has completely fixed my depression (#fk_anti_depressants).
 - Hopefully i'll finish my mev bot in the next couple of days (a simple version at least) and see where I go from there. There is only 1 competitor atm and basically for every day im not competing  is another day that person is making that $$$ (approve 4-5 txs every 20s - around $8-$30 - *cough* wtaf). Just for a simple arb + extra steps. Imagine a liquidation longtail or someshit. Anyway, not much has happened apart from my protocol development pause + beginning of MEV dev. Why? I prefer PvP over PvE ;) I'll finish off some of my old contracts after I get my bot up and running bc im learning so much. I stopped protocol dev bc i reached a point where i wasnt learning much at all. With mev im learning Rust, backend, bot creation, blockchain infrastructure (which is soooo interesting btw), Golang soon, and probs assembly and how shit works at a low level. Super valuable stuff to learn for all sectors of crypto. Anyway, ttyl log <3
 - Ty to (swampstream)[https://github.com/swampstream] for keeping me accountable for this :P (hope this helps, fren).
+- OH and portugal is adding 28(?)% tax soon (FML lol).
+- P.s. the Rust book is so good! Love learning about everything, now learning about Channels + Threads to run 2 things in parallel for the mev bot (monitoring systems). Cake_sniper was right...building something is the best way to learn a language. Thats why i was struggling before. Its bc i didnt have a direct goal of what to build / where to start, etc. Now i have direction. 
