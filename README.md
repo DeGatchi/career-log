@@ -83,3 +83,19 @@
 06/02/2022
 - Started building monitoring system. Learned a lot more about UniswapV2 code - line by line (path[], reserves, kLast)
 - Watched (Flashbots: simple arbitrage repo walkthrough)[https://www.youtube.com/watch?v=wn8r674U1B4]. Learned a lot and recommend to anyone.
+
+19 - 21/02/2022
+- Completed 7hr Rust Udemy course (Learn by building examples, or something)
+- Read learn Rust in 30min article
+- Watched (Crust of Rust: Lifetime Annotations)[https://www.youtube.com/watch?v=rAl-9HwD858]
+
+21/05/2022 
+> Been a while since I last updated and a lot has happened, including getting depressed for 2 weeks and bouncing into MEV :D
+- I have been working on a long-tail mev bot, for a searcher team as a skill demonstration, w/ mempool monitoring, decoding, block refreshing and my first arb algorithm to generate every possible path with a set of predefined paths (e.g, wETH -> USDC -> STAKE -> wSTAKE -> wBTC -> wETH). I literally have no background knowledge for Rust/MEV/Backend but my learning skills are pretty good so thats why I was given a chance (and my Solidity experience, almost 2 yr now). For anyone wanting to get into MEV, my recommendation is build a bot in rust that creates simulations, precomputes incoming txs and determines optimal profit pathways. The majority of profit for us lil guys will be with long-tail opportunities. MEV is such a selfish space so you need to learn by yourself and filter out the psyops (is this psyops? :0). Getting into MEV is so hard but it's so worth it. Just persist and build every day and try to break down everything in a very simple way.
+- Launched @TheaterDAO + made a basic website (do need to update to make way more user friendly) - currently requires technical knowledge to use and doesn't display all projects on a single page.
+- Almost finish algorithmic auction house; finished semi-algorithmic auction house that just requires the auctioneer to start it.
+- Optimised atomic swap contract (now atomic trade).
+- Listened to (Permissionless FB founder)[https://m.youtube.com/watch?v=s4VFb9l9RmY&t=13441s&pp=2AGBaZACAQ%3D%3D] + (ETH Amsterdam)[https://www.youtube.com/watch?v=HYPGD2bOMOo&t=22079s].
+- I went on anti-depressants but decided to get a gym membership and go everyday instead and it has completely fixed my depression (#fk_anti_depressants).
+- Hopefully i'll finish my mev bot in the next couple of days (a simple version at least) and see where I go from there. There is only 1 competitor atm and basically for every day im not competing  is another day that person is making that $$$ (approve 4-5 txs every 20s - around $8-$30 - *cough* wtaf). Just for a simple arb + extra steps. Imagine a liquidation longtail or someshit. Anyway, not much has happened apart from my protocol development pause + beginning of MEV dev. Why? I prefer PvP over PvE ;) I'll finish off some of my old contracts after I get my bot up and running bc im learning so much. I stopped protocol dev bc i reached a point where i wasnt learning much at all. With mev im learning Rust, backend, bot creation, blockchain infrastructure (which is soooo interesting btw), Golang soon, and probs assembly and how shit works at a low level. Super valuable stuff to learn for all sectors of crypto. Anyway, ttyl log <3
+- Ty to (swampstream)[https://github.com/swampstream] for keeping me accountable for this :P (hope this helps, fren).
