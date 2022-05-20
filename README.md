@@ -96,7 +96,7 @@
 - Read learn Rust in 30min article
 - Watched (Crust of Rust: Lifetime Annotations)[https://www.youtube.com/watch?v=rAl-9HwD858]
 
-### May (5)
+## May (5)
 21/05/2022 
 > Been a while since I last updated and a lot has happened, including getting depressed for 4-5 weeks, then bounced into MEV :D
 - I have been working on a long-tail mev bot, for a searcher team as a skill demonstration, w/ mempool monitoring, decoding, block refreshing and my first arb algorithm to generate every possible path with a set of predefined paths (e.g, wETH -> USDC -> STAKE -> wSTAKE -> wBTC -> wETH). I literally have no background knowledge for Rust/MEV/Backend but my learning skills are pretty good so thats why I was given a chance (and my Solidity experience, almost 2 yr now). For anyone wanting to get into MEV, my recommendation is build a bot in rust that creates simulations, precomputes incoming txs and determines optimal profit pathways. The majority of profit for us lil guys will be with long-tail opportunities. MEV is such a selfish space so you need to learn by yourself and filter out the psyops (is this psyops? :0). Getting into MEV is so hard but it's so worth it. Just persist and build every day and try to break down everything in a very simple way.
