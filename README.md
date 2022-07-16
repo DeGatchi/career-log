@@ -109,3 +109,29 @@
 - Ty to (swampstream)[https://github.com/swampstream] for keeping me accountable for this :P (hope this helps, fren).
 - OH and portugal is adding 28(?)% tax soon (FML lol).
 - P.s. the Rust book is so good! Love learning about everything, now learning about Channels + Threads to run 2 things in parallel for the mev bot (monitoring systems). Cake_sniper was right...building something is the best way to learn a language. Thats why i was struggling before. Its bc i didnt have a direct goal of what to build / where to start, etc. Now i have direction. 
+
+28/05/2022
+- Started optimising bot in order to get a stronger understanding of problems w/ MEV + Rust - need to do this to get a chance at getting a full-time searcher job.
+- Created a rust-experiments repo for testing out and understanding operations (understanding &strs, loops, hashmaps and vectors atm). Still need to learn about Traits and implementations. Maybe later on. Not sure how important they are, yet.
+- Watching [Crust of Rust: Channels](https://www.youtube.com/watch?v=b4mS5UPHh20). Edit: got 20mins in and think I need to watch something else for real use-case examples. His explanations are really good though!
+- Watched [Something Is Weird About Rust's Threading and Concurrency | Rust Multi-Threading Tutorial](https://www.youtube.com/watch?v=fHz_Li7HqcI)
+- Watched [Introduction to Rust - Part 14: Threading](https://www.youtube.com/watch?v=eZkbc_UUOs8): very good to understand threading!
+
+16/06/2022
+- Found [MEV Memoirs: Into the Arena - Chapter 1, Part 2 🤖 ](https://noxx.substack.com/p/mev-memoirs-into-the-arena-chapter-3e9?r=1bwfia&s=w) but didnt read, yet .-.
+- Getting pretty confident with Rust ended up creating an NFT minter bot that creates 100 accounts, mints NFT and records the tx, in 5hrs (? - idk i went to bed at 9am lol). Ended up not even using it bc the BitGoblins mint was delayed by 2hrs. I woke and it was minted out in 40mins.
+- Deployed bot to AWS server + using custom node set up by searcher team (no sleep duration :0).
+- Fixed the concurrency with the arb bot + updated monitor 328 paths from 72 :D. Only updating with block refresh instead of updating with incoming txs sooo only scanning 1 pair swaps atm.
+- Started to learn Serenity for discord bot, wanting to upgrade TombHeads :) Rust is fun and i want to build everything i can with it.
+- Learned Uniswap V2's `getAmountOut()` actually works - basically `reserveIn` is the `amountIn`'s reserve supply whereas `reserveOut` is the supply of `amountOut`.
+
+
+16/07/2022
+- Discovered my first monitored arb on the 28/06/2022 for 0.03. 
+- 07/07/2022, monitored $2.5k arb while building my tx crafting (lmao kms).
+- 16/07/2022, Submitted 3 successful next block arb txs for the first time, except werent profitable when subtracting gas from profits... After 2.5 months of work on my Rust bot, it's finally able to monitor + submit multi-hop-arb txs (e.g, 4 arbs in 1 tx) using flashswaps and function selector calls (like https://github.com/1inch/1inch-v2-contracts/blob/master/contracts/OneInchExchange.sol#L166).
+- Learned Rust pretty well so far. I'm very comfortable with the ownership model now, which has helped tremendously in optimising the bot. I was doing a lot of `clone`ing but now im using `&mut`s which are soooo much more efficient bc you're just mutating the same variable over and over again instead of creating a new instance of it each time.
+- Had a chat to Grug Capital, v impressive credentials and achievements (e.g, moonbird arb https://twitter.com/bertcmiller/status/1517278228918018049).
+- Now I think I need to learn about GETH and node modification, that will be v interesting. I feel fairly confident with Rust, however I've never used traits or impl (lmfao).
+- Shoutout to this cafe mix for being such great whitenoise: https://www.youtube.com/watch?v=iD4dMdpNe_I.
+- I think the competitor for the strategy earned around 88k while i've been building my bot. Insane.
