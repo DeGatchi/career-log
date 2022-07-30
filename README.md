@@ -46,11 +46,12 @@
 - Build a MEV bot (or multiple).
 - Learn EVM infrastructure (GETH).
 - Be proficient w/ Rust.
-- Get a full-time/contractor job in MEV or DeFi (preferably want to get a mev job).
+- Get a full-time/contractor job in MEV.
 
 ### Psychological
 - Stop being so introverted: Network + make more frens ;-;
 - Focus more, stop letting stress drag you down.
+- Take time to focus on mental health, a day to relax is still a productive day. My whole life shouldn't focus around my career, although it does make me happy <3
 - Be more thankful of those around me.
 - Don't be so fast to criticise (do it after complimenting on something done well), think about how it makes others feel.
 
@@ -131,7 +132,13 @@
 - 07/07/2022, monitored $2.5k arb while building my tx crafting (lmao kms).
 - 16/07/2022, Submitted 3 successful next block arb txs for the first time, except werent profitable when subtracting gas from profits... After 2.5 months of work on my Rust bot, it's finally able to monitor + submit multi-hop-arb txs (e.g, 4 arbs in 1 tx) using flashswaps and function selector calls (like https://github.com/1inch/1inch-v2-contracts/blob/master/contracts/OneInchExchange.sol#L166).
 - Learned Rust pretty well so far. I'm very comfortable with the ownership model now, which has helped tremendously in optimising the bot. I was doing a lot of `clone`ing but now im using `&mut`s which are soooo much more efficient bc you're just mutating the same variable over and over again instead of creating a new instance of it each time.
-- Had a chat to Grug Capital, v impressive credentials and achievements (e.g, moonbird arb https://twitter.com/bertcmiller/status/1517278228918018049).
+- Had a chat to Grug Capital, v impressive credentials and achievements (e.g, moonbird arb https://twitter.com/bertcmiller/status/1517278228918018049), got given a project to work on, but really dont have time atm + it wont be profitable so not sure if the best use of time. May look into it later(?).
 - Now I think I need to learn about GETH and node modification, that will be v interesting. I feel fairly confident with Rust, however I've never used traits or impl (lmfao).
 - Shoutout to this cafe mix for being such great whitenoise: https://www.youtube.com/watch?v=iD4dMdpNe_I.
 - I think the competitor for the strategy earned around 88k while i've been building my bot. Insane.
+
+30/07/2022
+- Learned about signing and verifying messages w/ a signature + message string to get the public key (signer) -> kind of sparked an interest in ZK proofs but not sure when I would want to use it. Saw an example for verifying I have a priv key without showing the key.
+- Continuing to work on a discord NFT auction bot for TombHeads since I created a Rust alternative for Web3Auth w/ the signature authentication system, hopefully can start distributing after I get it polished up. Going to need to learn Solana smart contracts for a Solana version of the bot.
+- Started to learn about linear algebra (probs going to do [this](https://www.udemy.com/course/linear-algebra-theory-and-implementation/) course) + statistics (advice from one of 2 mev anons that reached out when I [tweeted](https://twitter.com/DeGatchi/status/1553001843219124224) im starting to do freelancing). Also learned that to be fully successful in crypto you need to know the inner workings of protocols, e.g, their gas process and how the evm works - then optimise via low level programming (Rust + assembly/yul for smart contracts evm) for the millisecond. Definitely want to start learning GETH soon. It makes sense though, everyone I see that I consider at the elite level of crypto tech programming all know the inner workings of the evm in addition to being specialists in their fields (smart contracts || backend stuff). I do think im going in he right direction though, just gotta keep learning everyday.
+- Bot update: still stuck on the tx execution. For some reason it fails. Not sure if its to do with the broadcasting bc the manual tx propagation worked before the broadcaster impl. All the tests work in Rust + Solidity :/
